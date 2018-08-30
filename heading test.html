@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    
+    <title>Test</title>
+    
+    <meta charset="utf-8">
+    
+    <style>
+        
+        ul {
+            list-style-type:none;
+            background-color:white;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        
+        li {
+            display:inline-block;
+        }
+        
+        li a {
+            display:block;
+            color:black;
+            padding:15px;
+            text-align:center;
+            text-decoration:none;
+        }
+        
+        li a:hover {
+            background-color:blue
+        }
+        
+        table {
+            border-spacing:15px;
+        }
+        
+        th {
+            text-align:right
+        }
+        
+        th, td {
+            padding:20px
+        }
+        
+        table, th, td {
+            border:1px solid DarkGreen;
+        }
+        
+        a:hover {
+            color:black
+        }
+        
+        a:visited {
+            color:black
+        }
+        
+        a:link {
+            color:chartreuse
+        }
+        
+        table#t01 tr:nth-child(even){
+            background-color:#fff;
+            
+        }
+        
+        table#t01 tr:nth-child(odd) {
+            background-color:#eee;
+        }
+        
+        table#t01 th {
+            background-color:aquamarine;
+        }
+        
+        #javaTest {
+            color:crimson;
+        }
+        
+        .header {
+            border:4px dashed Tomato;
+        }
+        
+        .basic {
+            color:azure;
+            font-family:cursive;
+}
+        #kstate {
+            color:darkorchid;
+            font-family:serif;
+}
+    </style>
+    
+    </head>
+
+    <body style="background-color:rgb(125, 100, 130);background-image: url(dancing%20gif.gif)">
+        <h1 style="color:azure;font-family:cursive;text-align:center;background-color:crimson">Heading Example 1</h1>
+            <p><del><strong><sup>HELLO WORLD</sup></strong></del><br>Hi there, this is sample text so that I can edit things other than the heading.</p>
+            <p><em>emphasized text</em></p>
+            <p><i>italicized text</i></p>
+        <h4 style="font-family:cursive;color:rgb(100, 150, 75)">Facts</h4>
+            <p><abbr title="VERY COOL GUY">Jon</abbr></p>
+        <h2 style="border:4px dashed Tomato">Bordered Header</h2>
+            <p class="basic"><img src="dancing%20gif.gif" alt="ra ra rasputin" style="float:right;height:50px;width:50px;">style test</p>
+            <p>Hyperlink example. Found it <a href="https://www.google.com" target="_blank" title="not actually the right link">HERE.</a></p>
+        <h2 style="border:4px dashed OliveDrab">Table Example</h2>
+            <table id="t01"style="width:50%;color:black">
+                <caption><em><small>Just the facts, folks.</small></em></caption>
+                <tr>
+                    <th>Name</th>
+                    <th>Cool Meter</th>
+                </tr>
+                <tr>
+                    <td>Jon</td>
+                    <td><strong>very</strong></td>
+                </tr>
+                <tr>
+                    <td>Other People</td>
+                    <td>not very</td>
+                </tr>
+            </table>
+        <h2 class="header">Navigation Menu Test</h2>
+            <ul>
+                <li><a href="#top">uno</a></li>
+                <li><a href="#top">dos</a></li>
+                <li><a href="#top">tres</a></li>
+            </ul>
+        <h2 id="javaTest">Some Java Script</h2>
+            <button style="float:right;" onclick="coolThing()">SICK BOI</button>
+            <script>
+                function coolThing() {
+                    document.getElementById("javaTest").innerHTML = "Dogs R Nice";
+                }
+            </script>
+    </body>
+</html>
+<!-- hyperlink website https://www.w3schools.com/html/html_links.asp -->
+
+
